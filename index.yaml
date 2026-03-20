@@ -3,7 +3,23 @@ entries:
   nginx-sample:
   - apiVersion: v2
     appVersion: 1.27.0
-    created: "2026-03-20T08:39:28.527418+03:00"
+    created: "2026-03-20T09:33:03.189003+03:00"
+    dependencies:
+    - name: nginx-sample-dependent
+      repository: https://drey.github.io/test-charts1
+      version: 0.2.0
+    - name: nginx-sample-dependent1
+      repository: oci://ghcr.io/drey/test-charts1
+      version: 0.1.0
+    digest: b5e90611f7a5d16a5393f413234dd30d2eaae59d359569a9ad1ac7083384b05a
+    name: nginx-sample
+    type: application
+    urls:
+    - https://drey.github.io/test-charts/nginx-sample-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.27.0
+    created: "2026-03-20T09:33:03.188691+03:00"
     dependencies:
     - name: nginx-sample-dependent
       repository: https://drey.github.io/test-charts1
@@ -16,7 +32,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.27.0
-    created: "2026-03-20T08:39:28.527235+03:00"
+    created: "2026-03-20T09:33:03.188372+03:00"
     dependencies:
     - name: nginx-sample-dependent
       repository: oci://ghcr.io/drey/test-charts1
@@ -29,7 +45,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.27.0
-    created: "2026-03-20T08:39:28.52676+03:00"
+    created: "2026-03-20T09:33:03.187991+03:00"
     dependencies:
     - name: nginx-sample-dependent
       repository: https://drey.github.io/test-charts1
@@ -40,4 +56,4 @@ entries:
     urls:
     - https://drey.github.io/test-charts/nginx-sample-0.2.0.tgz
     version: 0.2.0
-generated: "2026-03-20T08:39:28.526181+03:00"
+generated: "2026-03-20T09:33:03.187518+03:00"
