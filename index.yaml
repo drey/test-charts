@@ -17,7 +17,7 @@ entries:
       urls:
         - http://drey.github.io/test-charts/nginx-sample-0.5.0.tgz
       version: 0.5.0
-      icon: http://backend.d8-console.svc:8999/debug/pprof/
+      icon: https://backend.d8-console.svc:8999/debug/pprof/
   nginx-sample:
     - apiVersion: v2
       appVersion: 1.27.0
